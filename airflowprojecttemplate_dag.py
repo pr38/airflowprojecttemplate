@@ -7,7 +7,7 @@ from airflow.operators.email_operator import EmailOperator
 
 from datetime import datetime, timedelta
 
-# change dag_version to compleatly reset the job/dag
+# change dag_version to completely reset the job/dag
 dag_version = "01"
 
 email_address_list = []
