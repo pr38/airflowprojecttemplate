@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 # change dag_version to completely reset the job/dag
 dag_version = "01"
 
+#variables to change
 email_address_list = []
-
 dag_name = "airflowprojecttemplate"
 start_date = datetime(2020, 7, 1)
 owner = "dummy_owner"
