@@ -6,4 +6,5 @@ All files not intended to be directly scanned by the airflow scheduler should be
 
 Alot of my experinace with airflow has been baked into this template.
 
-I have also placed some comments on the implcit assuptions airflow regarding tasks/dags architecture in my task file; said comments should be usefull to anyone trying to learn airflow.
+I have also placed some comments in my task file on the implcit assuptions airflow makes regarding tasks/dags architecture; said comments should be usefull to anyone trying to learn airflow.
+  
