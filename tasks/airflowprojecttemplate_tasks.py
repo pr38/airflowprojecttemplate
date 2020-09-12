@@ -4,7 +4,7 @@ import time
 def task1(ds, **kwargs):
     """
     Use the execution_datetime Pendulum/datetime object for determine what time-range of data to pull, i.e. query date injection.
-    The assumption that all (non-logging) datetime info that a job uses comes for Airflow directly is what allows Airflow to backfill.
+    The assumption that all (non-logging) datetime info that a job uses comes from Airflow directly, is what allows Airflow to backfill.
     Airflow assumes that the datetime it feeds the task is for the start of the time-rage of the data being processed.
     For example, a monthly job scheduled for the first day of the month triggered on August first will pass July first date-time info to its tasks.
     Furthermore, Airflow will refer to that run as the July run in the gui/portal.
